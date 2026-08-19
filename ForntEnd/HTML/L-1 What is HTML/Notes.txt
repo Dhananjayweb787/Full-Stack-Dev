@@ -1,0 +1,79 @@
+Hello everyone!
+
+Today I am starting HTML.
+
+Before I explain HTML, I want to cover one important idea: what a website is and how we access it. That gives a better foundation for understanding web development.
+
+A website is like a digital presentation. It can include text, images, buttons, videos, and interactive elements. People use websites for many purposes, such as marketing, sharing information, selling products, or building an online presence.
+
+A website is not stored on your phone or laptop permanently. It is stored on a server. A server is a computer that stores and delivers website data when someone requests it.
+
+To open a website, we use a browser such as Chrome, Safari, Firefox, or Opera. A browser helps us request and display websites.
+
+For example, when you type "www.google.com" in a browser, the browser asks the DNS to find the correct server. DNS stands for Domain Name System. Its job is to translate a domain name, like "google.com", into an IP address that the browser can use to locate the server.
+
+After that, the browser connects to the server and requests the website. The server sends back files such as HTML, CSS, and JavaScript. These files work together to show the website on your screen.
+
+The browser then combines these files and loads the page for you very quickly.
+
+Now let’s talk about HTML, CSS, and JavaScript.
+
+HTML is used to create the structure of a webpage. It gives the page its basic layout. For example, HTML is used for headings, paragraphs, images, links, and buttons.
+
+CSS is used to style the webpage. It controls things like color, font size, spacing, background, and layout. If HTML is the structure, CSS is the design.
+
+JavaScript is a programming language. It adds interactivity and behavior to a website. For example, it can make buttons work, show pop-ups, change content on the page, or respond when a user clicks something.
+
+A simple way to remember this is:
+
+- HTML = structure
+- CSS = style
+- JavaScript = behavior
+
+That is the basic foundation of web development.
+
+---
+
+2. Study Summary
+
+A website is a digital page or set of pages stored on servers. We access it through a browser. DNS helps the browser find the correct server by converting a domain name into an IP address. The server sends HTML, CSS, and JavaScript, and the browser uses them to display the page.
+
+---
+
+3. Key Points
+
+- A website is stored on a server, not on your device.
+- A browser is the tool used to open websites.
+- DNS translates a domain name into an IP address.
+- HTML creates structure.
+- CSS adds style.
+- JavaScript adds behavior and interactivity.
+- The browser combines these files to show the webpage.
+
+---
+
+4. Beginner Explanation
+
+Think of a website like a house.
+
+HTML is the skeleton and walls. It gives the house its shape.
+
+CSS is the paint, furniture, and decoration. It makes the house look good.
+
+JavaScript is the electricity and switches. It makes things work when you interact with them.
+
+So when you open a website, the browser first finds the website using DNS, then gets the files from the server, and then displays everything on your screen.
+
+That is the basic flow behind almost every website you use.
+
+---
+
+5. Revision Questions
+
+1. What is a website?
+2. What is the role of a server?
+3. What does DNS do?
+4. What is the difference between HTML and CSS?
+5. Why is JavaScript important in web development?
+
+---

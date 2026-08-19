@@ -1,0 +1,254 @@
+HTML Basics: Tags, Elements, Boilerplate, and Metadata
+
+Hello everyone,
+
+In this lesson,I want to go a little deeper into the basics of HTML before we start working with individual HTML tags.
+
+In the previous lesson, we learned that HTML stands for HyperText Markup Language and that it is used to structure content on a webpage.
+
+A useful way to think about HTML is to compare it to the structure of a house.
+
+If HTML represents the structure of a house, then HTML tags are the building instructions used to define different parts of that structure. When different HTML elements are combined, they create the structure of a webpage.
+
+HTML Tags vs HTML Elements
+
+Before going further, it is important to understand the difference between a tag and an element.
+
+An HTML tag is markup that tells the browser what a piece of content represents.
+
+For example:
+
+<h1>My name is Dhananjay</h1>
+
+Here:
+
+- "<h1>" is the opening tag.
+- "</h1>" is the closing tag.
+- "My name is Dhananjay" is the content.
+- The complete structure is an HTML element.
+
+So, a simple way to remember it is:
+
+«HTML element = opening tag + content + closing tag»
+
+Some elements, however, do not have a closing tag. These are called void elements. For example:
+
+<img src="photo.jpg" alt="A photo">
+
+The "<img>" element does not contain content in the same way that a paragraph or heading does.
+
+What Is Boilerplate Code?
+
+When you create a new HTML document, there is a standard basic structure that is commonly used as a starting point. This is called HTML boilerplate.
+
+A typical HTML document looks like this:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+
+</body>
+</html>
+
+You do not need to memorize every line immediately. The important thing at this stage is to understand what each part is responsible for.
+
+What Is "index.html"?
+
+You will often see a file named:
+
+index.html
+
+Many web servers and hosting systems use "index.html" as the default document for a directory or website.
+
+For example, when someone visits the root of a simple static website, the server may automatically serve "index.html".
+
+However, "index.html" is not a universal requirement for every website. Modern websites can use different architectures, frameworks, server configurations, and routing systems.
+
+For a beginner learning basic HTML, though, using "index.html" as the main page is a very common convention.
+
+The ".html" extension identifies the file as an HTML document, although the way a server handles a file ultimately depends on its configuration and the HTTP content type it sends.
+
+Understanding "<!DOCTYPE html>"
+
+The first line of a modern HTML document is usually:
+
+<!DOCTYPE html>
+
+This is called the DOCTYPE declaration.
+
+It tells the browser that the document should be interpreted using modern HTML standards and, importantly, helps the browser use standards mode rather than an older compatibility mode.
+
+It is not an HTML element.
+
+You may sometimes hear people describe it simply as "telling the browser this is HTML5." That is a useful beginner shortcut, but technically it is more accurate to say that it is the HTML document type declaration used in modern HTML.
+
+The "<html>" Element
+
+After the DOCTYPE, we usually have:
+
+<html lang="en">
+
+The "<html>" element is the root element of the document. It contains the rest of the HTML document.
+
+The "lang="en"" part is an attribute. It tells browsers and assistive technologies that the primary language of the document is English.
+
+For example:
+
+<html lang="en">
+
+Here:
+
+- "<html>" is the element name.
+- "lang" is the attribute.
+- ""en"" is the attribute value.
+
+The "<head>" Element
+
+Inside the "<html>" element, we normally have two major sections:
+
+<head>
+    
+</head>
+
+<body>
+
+</body>
+
+The "<head>" contains information about the document, such as its title, metadata, stylesheets, and other resources.
+
+The "<body>" contains the content that forms the main visible page.
+
+For example:
+
+<head>
+    <title>My Website</title>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <p>This is my webpage.</p>
+</body>
+
+The heading and paragraph belong in the body because they are page content.
+
+Metadata
+
+Inside the "<head>", you will often see "<meta>" elements.
+
+Metadata is information about the webpage or document, rather than the main content displayed to the user.
+
+Some common examples are:
+
+- Character encoding
+- Viewport settings
+- Description
+- Other document information
+
+Let's look at some common examples.
+
+Character Encoding
+
+<meta charset="UTF-8">
+
+"charset" specifies the character encoding used by the document.
+
+UTF-8 is the standard encoding used by most modern websites and supports a very large range of characters and symbols.
+
+It allows the browser to correctly interpret text such as:
+
+Hello
+नमस्ते
+こんにちは
+€
+©
+😊
+
+This is why character encoding matters.
+
+Viewport
+
+You will commonly see:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+This is particularly important for responsive websites.
+
+It tells the browser how to set up the page's viewport, especially on mobile devices.
+
+"width=device-width" tells the browser to use the device's viewport width.
+
+"initial-scale=1.0" sets the initial zoom level.
+
+This helps webpages behave properly across different screen sizes.
+
+Description
+
+Another common example is:
+
+<meta name="description" content="A beginner-friendly website about web development.">
+
+The description provides a summary of the page.
+
+Search engines may use this information when generating search-result snippets, although they can also choose different text from the page.
+
+The description is useful for communicating what a page is about, but it is not a simple ranking score that directly pushes a website higher in Google results.
+
+Search ranking is much more complicated and depends on many factors.
+
+Author
+
+You may also encounter:
+
+<meta name="author" content="Dhananjay Patel">
+
+This identifies the author of the document.
+
+It can provide useful document metadata, but it should not be treated as a major SEO ranking factor.
+
+A Note About Google Search Rankings
+
+Websites appear in different positions in search results because search engines use complex ranking systems to determine which results are most relevant and useful for a particular query.
+
+Many factors can contribute to search visibility, including relevance, content quality, links, technical accessibility, page experience, and many other signals.
+
+For example, if you search for a topic such as "HTML," you will see many different websites. Search engines determine which results to display and in what order.
+
+It is therefore better to think of SEO as a large system rather than a few "<meta>" tags that automatically make a website rank higher.
+
+Do I Need to Memorize Everything?
+
+No.
+
+When learning web development, understanding the concepts and practicing them is more important than trying to memorize every piece of syntax immediately.
+
+You will naturally remember frequently used structures through repetition.
+
+Documentation is also a normal part of professional development. Even experienced developers look things up.
+
+One useful resource for learning HTML, CSS, and JavaScript is MDN Web Docs. It provides detailed technical documentation and examples.
+
+The Complete Picture
+
+At this point, you should have a basic understanding of the structure of an HTML document:
+
+DOCTYPE
+   ↓
+<html>
+   ├── <head>
+   │     ├── metadata
+   │     ├── title
+   │     └── other resources
+   │
+   └── <body>
+         └── visible page content
+
+We have now covered the foundation.
+
+In the next lessons, we can start working with HTML content and learn the tags and elements used to create headings, paragraphs, links, images, lists, and other parts of a webpage.
+
+We are not going backward. We are building one layer on top of another.

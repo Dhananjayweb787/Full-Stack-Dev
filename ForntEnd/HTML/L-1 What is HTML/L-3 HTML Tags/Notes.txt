@@ -1,0 +1,502 @@
+Lesson 3: Basic HTML Tags and Semantic Tags
+
+Overview
+
+In this lesson, we will learn basic HTML tags, text-related tags, and semantic tags.
+
+This lesson continues from the previous one, where we learned about:
+
+- HTML boilerplate
+- "index.html"
+- "<!DOCTYPE html>"
+- The "<head>" section
+- Metadata
+- Why documentation like MDN is useful
+
+Now we will focus more on the actual tags used to write content on a webpage.
+
+---
+
+1. HTML Tags and Elements
+
+HTML uses tags to mark up content.
+
+An HTML element is usually made of:
+
+- an opening tag
+- content
+- a closing tag
+
+Example:
+
+<h1>My name is Dhananjay</h1>
+
+Here:
+
+- "<h1>" is the opening tag
+- "My name is Dhananjay" is the content
+- "</h1>" is the closing tag
+- together, this becomes one HTML element
+
+Important point
+
+An HTML tag is part of the syntax.
+
+An HTML element is the full structure created by the tag and its content.
+
+---
+
+2. Why Learn the Basics First?
+
+You do not need to memorize every HTML tag, CSS property, or JavaScript method at once.
+
+In web development:
+
+- some things must be remembered
+- many things can be looked up
+- practice matters more than memorization
+
+Even experienced developers use documentation and search tools all the time.
+
+A good habit is:
+
+- understand the concept
+- practice it
+- revisit it when needed
+
+---
+
+3. Basic HTML Text Tags
+
+These are some of the most common HTML tags used to write text content.
+
+Heading Tags
+
+HTML has six heading levels:
+
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+Meaning
+
+- "<h1>" is the most important heading
+- "<h6>" is the least important heading
+
+Best practice
+
+Use heading tags in proper hierarchy:
+
+- "<h1>" for the main title
+- "<h2>" for main sections
+- "<h3>" for sub-sections
+- and so on
+
+Do not use heading tags randomly just to make text bigger.
+
+Headings are important for:
+
+- readability
+- document structure
+- accessibility
+- SEO
+
+---
+
+Paragraph Tag
+
+<p>This is a paragraph.</p>
+
+The "<p>" tag is used for normal text blocks.
+
+Use it when you want to write:
+
+- explanations
+- descriptions
+- simple content paragraphs
+
+---
+
+Strong and Emphasis Tags
+
+These tags are useful for highlighting text.
+
+<strong>This text is important.</strong>
+<em>This text is emphasized.</em>
+
+Meaning
+
+- "<strong>" gives strong importance
+- "<em>" gives emphasis
+
+These are better than using plain bold or italic styling manually, because they also carry meaning.
+
+---
+
+Preformatted Text Tag
+
+<pre>
+Hello      world
+This keeps    spaces
+And line breaks
+</pre>
+
+The "<pre>" tag preserves:
+
+- spaces
+- line breaks
+- formatting
+
+Unlike normal paragraphs, "<pre>" keeps the text exactly as written.
+
+---
+
+Line Break Tag
+
+<br>
+
+The "<br>" tag creates a line break.
+
+It is useful when you want to move text to the next line without starting a new paragraph.
+
+Example
+
+<p>First line<br>Second line</p>
+
+---
+
+Horizontal Rule Tag
+
+<hr>
+
+The "<hr>" tag creates a horizontal line or thematic break.
+
+It is useful when you want to separate sections.
+
+---
+
+4. Image Tag
+
+Images are added using the "<img>" tag.
+
+Example:
+
+<img src="image.jpg" alt="A sample image">
+
+Important attributes
+
+"src"
+
+"src" means source.
+It tells the browser where the image file is located.
+
+"alt"
+
+"alt" means alternative text.
+It describes the image if:
+
+- the image does not load
+- the user is using a screen reader
+- the browser cannot display the image
+
+Why "alt" matters
+
+The "alt" attribute helps with:
+
+- accessibility
+- better understanding for users
+- fallback text if the image fails to load
+
+Image size
+
+You can control image size using attributes such as:
+
+<img src="image.jpg" alt="A sample image" width="300">
+
+or
+
+<img src="image.jpg" alt="A sample image" height="200">
+
+In many cases, it is better to control image size with CSS instead of only using HTML attributes.
+
+Important note
+
+"<img>" is a void element, which means it does not have a closing tag.
+
+---
+
+5. Link Tag
+
+To create links, HTML uses the anchor tag:
+
+<a href="https://www.google.com">Google</a>
+
+Important attribute
+
+"href"
+
+"href" stands for hypertext reference.
+It tells the browser where the link should go.
+
+Use cases
+
+Links can point to:
+
+- another website
+- another page in the same website
+- a section inside the same page
+- a file or resource
+
+Example
+
+<a href="about.html">About</a>
+
+This is how you connect multiple pages in a website.
+
+Important correction
+
+The "<a>" tag is the tag used for links.
+The "<link>" tag is different and is usually used in the "<head>" to connect external resources like stylesheets.
+
+6.Subscript Tag
+
+The "<sub>" tag is used for subscript text, which appears slightly below the normal line of text.
+
+This is useful in chemistry formulas such as:
+
+H<sub>2</sub>O
+CO<sub>2</sub>
+O<sub>2</sub>
+
+It is also useful in some mathematical and scientific notations.
+
+7.Superscript Tag
+
+The "<sup>" tag is used for superscript text, which appears slightly above the normal line of text.
+
+This is useful in expressions such as:
+
+a<sup>n</sup>
+x<sup>2</sup>
+
+It is commonly used in:
+
+- math expressions
+- exponents
+- footnotes
+- scientific notation
+
+Note on Text Size Tags
+
+There are also tags such as "<small>" that change the size or emphasis of text.
+
+However, for normal webpage structure, I would prefer using:
+
+- headings for important titles
+- paragraphs for regular text
+- CSS for visual sizing
+
+That is usually a cleaner and more professional approach than relying on text-size tags alone.
+
+---
+
+8. Common Basic Tags to Know
+
+Here is a short list of basic tags that are worth learning early:
+
+- "<h1>" to "<h6>" — headings
+- "<p>" — paragraph
+- "<pre>" — preformatted text
+- "<br>" — line break
+- "<hr>" — thematic break
+- "<img>" — image
+- "<a>" — link
+- "<sub>" — subscript text
+- "<sup>" — superscript text
+
+
+You do not need to master all of them immediately.
+Start with the most common ones and build from there.
+
+---
+
+9. Semantic Tags
+
+Semantic tags are tags that clearly describe their meaning and purpose.
+
+They help make HTML:
+
+- easier to read
+- easier to understand
+- better for accessibility
+- better organized
+
+Examples of semantic tags include:
+
+- "<header>"
+- "<main>"
+- "<footer>"
+- "<nav>"
+- "<section>"
+- "<article>"
+- "<aside>"
+- "<figure>"
+- "<figcaption>"
+
+---
+
+10. Main Semantic Layout Tags
+
+A simple webpage can often be divided into three major parts:
+
+- header
+- main content
+- footer
+
+Header
+
+<header>
+    <h1>My Website</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+The "<header>" usually contains:
+
+- the page title
+- logo
+- navigation
+- introductory content
+
+---
+
+Main
+
+<main>
+    <p>This is the main content of the webpage.</p>
+</main>
+
+The "<main>" tag contains the primary content of the page.
+
+There should usually be only one "<main>" per page.
+
+---
+
+Footer
+
+<footer>
+    <p>Contact us | Help Center | Privacy Policy</p>
+</footer>
+
+The "<footer>" usually contains:
+
+- contact information
+- copyright
+- links
+- support pages
+- closing information
+
+---
+
+11. Why Semantic Tags Matter
+
+Semantic tags are helpful because they give structure to the page.
+
+Instead of using only generic containers, you clearly show what each section is for.
+
+This helps:
+
+- browsers
+- screen readers
+- developers
+- search engines
+
+Example
+
+Compare these two approaches:
+
+<div>...</div>
+<div>...</div>
+<div>...</div>
+
+and
+
+<header>...</header>
+<main>...</main>
+<footer>...</footer>
+
+The second version is much easier to understand.
+
+---
+
+12. Practice Reminder
+
+The goal of this lesson is not to memorize every tag immediately.
+
+The goal is to:
+
+- understand what each tag does
+- know when to use it
+- practice writing it
+- revisit documentation when needed
+
+If you forget a tag later, that is normal.
+Developers look things up all the time.
+
+---
+
+13. Quick Summary
+
+Basic tags
+
+- headings
+- paragraphs
+- images
+- links
+- line breaks
+- horizontal rules
+- preformatted text
+
+Semantic tags
+
+- header
+- main
+- footer
+
+Important attributes
+
+- "src"
+- "alt"
+- "href"
+
+---
+
+14. Key Takeaways
+
+- HTML tags create structure and content.
+- HTML elements are made from tags and content.
+- Headings should follow a proper hierarchy.
+- "<p>" is used for paragraphs.
+- "<img>" needs "src" and "alt".
+- "<a>" is used for links.
+- "<br>" creates a line break.
+- "<hr>" creates a horizontal separator.
+- Semantic tags make the page easier to understand and maintain.
+- Practice matters more than memorization.
+
+---
+
+15.Next Lesson Preview
+
+In the next lesson, we will continue with more HTML tags and learn how to use them in actual webpage structures.
+
+We are building step by step:
+
+- first the basics
+- then the structure
+- then the full webpage
