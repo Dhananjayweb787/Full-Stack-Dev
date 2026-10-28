@@ -5,4 +5,50 @@ point:
  Second; Article tag means to represent an article.
  Thrid; Aside tag is for Ads which doesn't effect your SEO.
 
+ Anchor tag has an abbrivation named target for opening new tab.
+ Div tag is sort of a block element. Sort of empty 
+ Span tag is an inline element: fits accroding to the data within the tag.
+
+ There are two types of List in html 
+
+ First: Ordered List is for representing something in order. 
+ Second: UnOrdered List for showing random things to work on. 
+
+ Tables in html
+ Tables are used to represent data in an organised manner.
+
+ <tr>, used to display table row
+ <td>, used to show table data 
+ <th>, Used ti show table header 
+
+(<thead>, used to wrap table head
+<tbody>, used to wrap table body)Used to work in code
  
+ Forms in html 
+ Froms are used to collect data from, the users.
+
+Action in form: Action attribute is used to define what needs to be performed when a form is submitted. 
+In English: The form should be exectued by which language.
+input Tag is used get info with an attribute type to recognise the variable. 
+
+Labels are used to work for clasificating the form.
+Their is also a radio label/button used to get options.Label attribute is used for enhencing the button property.
+
+Checkbox tag:
+Used to tick one option or multiple ticks.
+
+Textarea tag:
+Used for giving a speacific to the user for wrttien text.
+
+Select tag:
+Used to select from different variables. 
+
+There are two different elements for clasifiying different tags.
+First: class element: used to assign different tags by same class name.
+Second: id element: used to assign each individual tag by a different name.
+
+Iframe Tag: Used to show a diiferent website preview on your.
+
+Video Tag:  Used to show videos on your websites.
+Attributes: controls, height, width, loop, autoplay
+
