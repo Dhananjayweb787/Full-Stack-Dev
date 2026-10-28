@@ -1,0 +1,8 @@
+point:
+
+ There are three different subtags within main tag
+ first; section tag means to catagouries different tags.
+ Second; Article tag means to represent an article.
+ Thrid; Aside tag is for Ads which doesn't effect your SEO.
+
+ 
