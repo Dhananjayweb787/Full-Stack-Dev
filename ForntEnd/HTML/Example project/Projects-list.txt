@@ -1,1 +1,6 @@
-Below Is a List of five different Projects for those who have completed the course of html. You Can also use this ones in your resume. 
+Below Is a List of five different Projects for those who have completed the course of html. You Can also use this ones in your resume.
+And don't worry that these five projects are going to be like create your personal portfoilo or contect me sites. I will give you projects you have might never seen before.
+So lets start:
+Below I am providing you code you have to paste in any index.html file and run to see the list. 
+
+Here's the code:
