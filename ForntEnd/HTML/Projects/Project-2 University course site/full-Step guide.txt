@@ -7,9 +7,9 @@ The sites I visited were:
   2.https://collegedunia.com/usa/university/1087-massachusetts-institute-of-technology-cambridge
   3.https://collegedunia.com/usa/university/2074-stanford-university-stanford
   4.https://collegedunia.com/usa/university/1127-loyola-university-chicago
-  5.
-2.
-3.
+  5.https://unischolars.com/get-expert-guidance?utm_source=bing&utm_medium=cpc&utm_campaign=src-generic-degree-masters-courses-tg-uk-geo-mumbai&utm_content=computer-science-broad&utm_term=uk%20universities%20for%20computer%20science&msclkid=f2eb2e2c775112d96b5744c8c068682e
+2.After getting the structural formation information for this sites, I can get something to build. Basically, I know what and how to make my  personal site catalog.
+3.So I think before building this site, we need to understand how to make it. As the Computer Science catalog should be understood first, then come up with the structure. What I saw in this sites was the structure and operation,but the course catalog was not on the site. Therefore, I need to focus on a speacific country catalog of computer science,then I have to replicate the material within. This in English means, I have to understand the roadmap of the course,then copy paste it in our site.
 4.
 5.
 6.
