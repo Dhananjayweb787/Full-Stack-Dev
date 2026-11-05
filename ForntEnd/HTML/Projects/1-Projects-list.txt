@@ -1,6 +1,636 @@
 Below Is a List of five different Projects for those who have completed the course of html. You Can also use this ones in your resume.
 And don't worry that these five projects are going to be like create your personal portfoilo or contect me sites. I will give you projects you have might never seen before.
 So lets start:
-Below I am providing you code you have to paste in any index.html file and run to see the list. 
+Below I am providing you code you have to paste in any index.html file and run to see the list.
 
 Here's the code:
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Five project ideas to help you practice structuring content with HTML, using semantic elements, and planning interconnected pages."
+    />
+    <title>5 HTML Projects: From Intermediate to Advanced</title>
+  </head>
+  <body>
+    <header>
+      <h1>5 HTML Projects</h1>
+      <p>From Intermediate to Advanced</p>
+      <nav aria-label="Project levels">
+        <h2>Project levels</h2>
+        <ol>
+          <li><a href="#level-1">The Interactive Mystery Case File</a></li>
+          <li><a href="#level-2">The University Course Explorer</a></li>
+          <li><a href="#level-3">The Science Discovery</a></li>
+          <li><a href="#level-4">The Emergency Response Command Center</a></li>
+          <li><a href="#level-5">The Open Web Knowledge Network</a></li>
+        </ol>
+      </nav>
+    </header>
+
+    <main>
+      <article id="level-1">
+        <header>
+          <h2>Level 1: The Interactive Mystery Case File</h2>
+          <p><strong>Difficulty:</strong> 4/10</p>
+        </header>
+
+        <section>
+          <h3>The Concept</h3>
+          <p>
+            Build a website that presents a fictional unsolved mystery. You may
+            also use a real case; if you do, be factual.
+          </p>
+          <p>
+            Imagine a detective has given you access to a digital case file.
+            Your job is to organize all the evidence so another investigator can
+            solve the case.
+          </p>
+          <p>
+            Try your best to make it feel like an engaging site, not a plain
+            webpage. If you use only HTML, your site may look plain. Don't
+            worry; we'll change that with CSS.
+          </p>
+        </section>
+
+        <section>
+          <h3>Your Mission</h3>
+          <p>
+            Create or find a case file about an incident. Your site must
+            contain:
+          </p>
+          <ol>
+            <li>
+              Case overview
+              <ul>
+                <li>Case number and status</li>
+                <li>Incident date and location</li>
+                <li>A short incident summary</li>
+              </ul>
+            </li>
+            <li>
+              Suspect profiles
+              <ul>
+                <li>
+                  Suspects' names, profiles, addresses, occupations, and
+                  statements, if any
+                </li>
+                <li>Their possible motives</li>
+                <li>
+                  A short summary of where they were at the time of the crime
+                </li>
+              </ul>
+            </li>
+            <li>
+              Evidence archive
+              <ul>
+                <li>A timeline of events</li>
+                <li>Photographs or illustrations of evidence</li>
+                <li>
+                  An evidence table containing timestamps, descriptions, and
+                  reliability ratings
+                </li>
+              </ul>
+            </li>
+            <li>
+              Witness statements
+              <ul>
+                <li>
+                  Statements presented using appropriate quotation elements
+                </li>
+                <li>Contradictions between different witnesses</li>
+              </ul>
+            </li>
+            <li>
+              Investigator's notes
+              <ul>
+                <li>Important observations</li>
+                <li>Unanswered questions</li>
+                <li>A final theory about what might have happened</li>
+              </ul>
+            </li>
+          </ol>
+          <p>
+            <strong>Completion test:</strong> Can another person understand the
+            case analysis without your intervention?
+          </p>
+        </section>
+      </article>
+
+      <article id="level-2">
+        <header>
+          <h2>Level 2: The University Course Explorer</h2>
+          <p><strong>Difficulty:</strong> 5.5/10</p>
+        </header>
+
+        <section>
+          <h3>The Concept</h3>
+          <p>Build a mini university course catalog.</p>
+          <p>
+            Imagine you're creating a website for a fictional university where
+            students can explore a Computer Science degree, understand its
+            requirements, and plan their academic journey.
+          </p>
+          <p>
+            This is more than a page listing courses. It's a structured
+            information system.
+          </p>
+        </section>
+
+        <section>
+          <h3>Your Mission</h3>
+          <p>
+            Create a catalog for a fictional four-year Computer Science degree.
+            Your site should include:
+          </p>
+          <ol>
+            <li>
+              Degree overview
+              <ul>
+                <li>Degree name and description</li>
+                <li>Admission requirements</li>
+                <li>Total credits required</li>
+                <li>Graduation requirements</li>
+              </ul>
+            </li>
+            <li>
+              Course catalog
+              <ul>
+                <li>Introduction to programming</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Database Systems</li>
+                <li>Operating Systems</li>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Web Development</li>
+              </ul>
+              <p>Each course should include:</p>
+              <ul>
+                <li>Course code</li>
+                <li>Course title</li>
+                <li>Credit hours</li>
+                <li>Course description</li>
+                <li>Prerequisites</li>
+                <li>Semester availability</li>
+              </ul>
+            </li>
+            <li>Academic roadmap</li>
+            <li>Course prerequisites</li>
+            <li>Frequently asked questions</li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>The Challenge</h3>
+          <p>Create at least three separate HTML pages:</p>
+          <ol>
+            <li><code>index.html</code> — Degree overview</li>
+            <li><code>course.html</code> — Complete course catalog</li>
+            <li>
+              <code>requirements.html</code> — Graduation requirements and
+              academic policies
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article id="level-3">
+        <header>
+          <h2>Level 3: The Science Discovery</h2>
+          <p><strong>Difficulty:</strong> 7/10</p>
+        </header>
+
+        <section>
+          <h3>The Concept</h3>
+          <p>Build a digital archive dedicated to scientific discoveries.</p>
+          <p>
+            This could be a small version of a scientific journal combined with
+            a research library.
+          </p>
+          <p>
+            Unlike the mystery project, which focuses on storytelling, this
+            project focuses on presenting complicated information accurately and
+            making it understandable.
+          </p>
+          <p>
+            You could choose discoveries that interest you personally:
+            astronomy, artificial intelligence, physics, chemistry, or biology.
+          </p>
+        </section>
+
+        <section>
+          <h3>Your Mission</h3>
+          <p>
+            Create an archive containing at least five scientific discoveries.
+          </p>
+          <p>Possible subjects include:</p>
+          <ul>
+            <li>The discovery of gravitational waves</li>
+            <li>The first image of a black hole</li>
+            <li>The detection of exoplanets</li>
+            <li>The discovery of penicillin</li>
+            <li>The identification of the cosmic microwave background</li>
+          </ul>
+          <p>Each discovery must have its own HTML page.</p>
+          <p>For each discovery, include:</p>
+          <ol type="A">
+            <li>
+              Discovery overview
+              <ul>
+                <li>What was discovered?</li>
+                <li>When was it discovered?</li>
+                <li>Who contributed to the discovery?</li>
+                <li>Why does it matter?</li>
+              </ul>
+            </li>
+            <li>
+              Scientific explanation
+              <ul>
+                <li>The problem scientists were investigating</li>
+                <li>The hypothesis or question</li>
+                <li>The methods used</li>
+                <li>The results</li>
+                <li>The limitations of the findings</li>
+              </ul>
+            </li>
+            <li>
+              Evidence
+              <ul>
+                <li>Relevant photographs</li>
+                <li>Diagrams or figures</li>
+                <li>Data tables</li>
+                <li>Captions explaining what the evidence shows</li>
+              </ul>
+            </li>
+            <li>
+              Research references
+              <ul>
+                <li>Links to scientific papers</li>
+                <li>Links to reputable research institutions</li>
+                <li>
+                  Publication dates and author information, where available
+                </li>
+              </ul>
+            </li>
+            <li>A beginner's explanation</li>
+          </ol>
+        </section>
+      </article>
+
+      <article id="level-4">
+        <header>
+          <h2>Level 4: The Emergency Response Command Center</h2>
+          <p><strong>Difficulty:</strong> 8.5/10</p>
+        </header>
+
+        <section>
+          <h3>The Concept</h3>
+          <p>Build a website for managing a fictional citywide emergency.</p>
+          <p>
+            Imagine a major flood has affected a city. Emergency responders need
+            a centralized website containing incident information, resource
+            inventories, evacuation instructions, shelter locations, and
+            incident reports.
+          </p>
+          <p>
+            Your task is to build the information interface using only HTML.
+          </p>
+          <p>
+            This is a serious test of your ability to structure a large amount
+            of related information.
+          </p>
+        </section>
+
+        <section>
+          <h3>Your Mission</h3>
+          <p>
+            Create a command center for a fictional city called Northridge. If
+            you use a real city, accuracy is important.
+          </p>
+          <p>A severe flood has affected four districts.</p>
+          <p>Your website must contain the following modules:</p>
+          <ol>
+            <li>
+              Incident dashboard
+              <p>Display:</p>
+              <ul>
+                <li>Incident name and status</li>
+                <li>Date and time of the latest update</li>
+                <li>A summary of the affected districts</li>
+                <li>Current response priorities</li>
+              </ul>
+              <p>
+                Use meaningful headings and appropriately structured data
+                tables.
+              </p>
+            </li>
+            <li>
+              District reports
+              <p>Create separate reports for all four districts.</p>
+            </li>
+            <li>
+              Shelter directory
+              <p>
+                Create a table of at least eight fictional emergency shelters.
+                Include:
+              </p>
+              <ul>
+                <li>Shelter name</li>
+                <li>District</li>
+                <li>Address</li>
+                <li>Capacity</li>
+                <li>Current occupancy</li>
+                <li>Accessibility information</li>
+                <li>Available facilities</li>
+              </ul>
+            </li>
+            <li>
+              Resource inventory
+              <p>Track emergency supplies, including:</p>
+              <ul>
+                <li>Drinking water</li>
+                <li>Food supplies</li>
+                <li>First-aid kits</li>
+                <li>Blankets</li>
+                <li>Resource equipment</li>
+              </ul>
+            </li>
+            <li>
+              Incident reporting form
+              <p>Build a form allowing a fictional responder to submit:</p>
+              <ul>
+                <li>Their name or responder ID</li>
+                <li>Incident location</li>
+                <li>Incident category</li>
+                <li>Severity</li>
+                <li>A written description</li>
+                <li>Whether immediate assistance is required</li>
+              </ul>
+            </li>
+            <li>
+              Operational timeline
+              <p>
+                Document the response chronologically using timestamps and
+                descriptions.
+              </p>
+            </li>
+            <li>
+              Official instructions
+              <p>
+                Create an emergency information section with evacuation
+                instructions, shelter guidance, and contact information for the
+                fictional emergency.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>The Challenge</h3>
+          <p>Build the entire website across at least five HTML pages:</p>
+          <ol>
+            <li><code>index.html</code> — Incident dashboard</li>
+            <li><code>districts.html</code> — District reports</li>
+            <li><code>shelter.html</code> — Shelter directory</li>
+            <li><code>resources.html</code> — Resources inventory</li>
+            <li><code>report.html</code> — Incident reporting form</li>
+          </ol>
+        </section>
+      </article>
+
+      <article id="level-5">
+        <header>
+          <h2>Level 5: The Open Web Knowledge Network</h2>
+          <p><strong>Difficulty:</strong> 10/10</p>
+          <p>This is the most demanding project of the five.</p>
+        </header>
+
+        <section>
+          <h3>The Concept</h3>
+          <p>
+            You're no longer building a single website page. You're building a
+            small, interconnected knowledge system.
+          </p>
+          <p>
+            Imagine creating your own miniature Wikipedia combined with a
+            documentation website.
+          </p>
+          <p>
+            However, instead of building a random encyclopedia, you will create
+            a network of interconnected concepts around one subject.
+          </p>
+          <p>I recommend choosing the architecture of the internet.</p>
+          <p>Why?</p>
+          <p>
+            Because you can explore DNS, IP addresses, HTTP, HTTPS, browsers,
+            servers, HTML, CSS, JavaScript, and web hosting. You'll also be
+            learning concepts that support your full-stack development journey.
+          </p>
+        </section>
+
+        <section>
+          <h3>Your Mission</h3>
+          <p>
+            Build a knowledge network with at least 12 interconnected HTML
+            pages.
+          </p>
+
+          <section>
+            <h4>Part 1: The Central Knowledge Map</h4>
+            <p>Create <code>index.html</code>.</p>
+            <p>This is your central entry point. It should include:</p>
+            <ul>
+              <li>An introduction to the internet</li>
+              <li>A structured index of major concepts</li>
+              <li>Links to every topic in your knowledge network</li>
+              <li>A suggested learning sequence</li>
+              <li>A glossary of important terms</li>
+            </ul>
+            <p>Organize the topics into categories. For example:</p>
+            <section>
+              <h5>Web Foundation</h5>
+              <ul>
+                <li>How the internet works</li>
+                <li>What happens when you visit a website?</li>
+                <li>
+                  The difference between the internet and the World Wide Web
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>Communication</h5>
+              <ul>
+                <li>HTTP and HTTPS</li>
+                <li>DNS</li>
+                <li>IP addresses</li>
+                <li>TCP and other networking concepts</li>
+              </ul>
+            </section>
+            <section>
+              <h5>Web Development</h5>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Frontend versus backend development</li>
+              </ul>
+            </section>
+            <section>
+              <h5>Infrastructure</h5>
+              <ul>
+                <li>Web servers</li>
+                <li>Web hosting</li>
+                <li>Databases</li>
+                <li>Domain names</li>
+              </ul>
+            </section>
+          </section>
+
+          <section>
+            <h4>Part 2: Individual Knowledge Pages</h4>
+            <p>Each topic gets its own HTML file. For example:</p>
+            <ul>
+              <li><code>dns.html</code></li>
+              <li><code>http.html</code></li>
+              <li><code>html.html</code></li>
+              <li><code>css.html</code></li>
+              <li><code>javascript.html</code></li>
+              <li><code>web-servers.html</code></li>
+            </ul>
+            <p>Each page should contain:</p>
+            <ol>
+              <li>A definition</li>
+              <li>A beginner-friendly explanation</li>
+              <li>A more detailed technical explanation</li>
+              <li>Examples</li>
+              <li>Common misconceptions</li>
+              <li>Links to related topics</li>
+              <li>References to reliable documentation</li>
+            </ol>
+          </section>
+
+          <section>
+            <h4>Part 3: Build a Genuine Network</h4>
+            <p>This is where the difficulty increases.</p>
+            <p>Your pages must connect to one another logically.</p>
+            <p>For example:</p>
+            <p>
+              DNS &rarr; IP addresses &rarr; Web servers &rarr; HTTP &rarr; HTML
+            </p>
+            <p>
+              However, the connections should work in both directions where
+              appropriate.
+            </p>
+            <p>
+              If someone is reading your HTTP page and encounters DNS, they
+              should be able to open your DNS page. If they start with DNS, they
+              should also be able to follow a link to HTTP.
+            </p>
+            <p>
+              Create links between related topics, not just links back to the
+              homepage.
+            </p>
+          </section>
+
+          <section>
+            <h4>Part 4: Add an HTML Reference Library</h4>
+            <p>
+              Create a separate reference page containing at least 30 HTML
+              elements.
+            </p>
+            <p>For each element, document:</p>
+            <ul>
+              <li>Its name</li>
+              <li>Its purpose</li>
+              <li>A short code example</li>
+              <li>A practical use case</li>
+              <li>Whether it's a void element, where applicable</li>
+              <li>Relevant attributes, if any</li>
+            </ul>
+            <p>Organize the references into categories, such as:</p>
+            <ul>
+              <li>Document structure</li>
+              <li>Text and semantics</li>
+              <li>Links and media</li>
+              <li>Lists</li>
+              <li>Tables</li>
+              <li>Forms</li>
+              <li>Interactive elements</li>
+            </ul>
+            <p>
+              Be accurate: HTML elements have different content models and
+              rules. Do not assume that every element can be nested inside every
+              other element.
+            </p>
+          </section>
+
+          <section>
+            <h4>Part 5: Create a Self-Assessment Section</h4>
+            <p>Create an HTML quiz page using ordinary form controls.</p>
+            <p>
+              Include at least 15 questions covering your knowledge network.
+            </p>
+            <p>Questions could ask:</p>
+            <ul>
+              <li>What is the purpose of DNS?</li>
+              <li>What is the difference between HTTP and HTTPS?</li>
+              <li>
+                What does the <code>&lt;main&gt;</code> element represent?
+              </li>
+              <li>Why should a form control have an associated label?</li>
+              <li>
+                What is the difference between a semantic element and a generic
+                container?
+              </li>
+            </ul>
+            <p>
+              You can create the questions and answer choices using HTML alone.
+            </p>
+            <p>
+              However, automatically calculating a score or displaying feedback
+              based on answers requires JavaScript or another processing
+              mechanism. For this project, the form can serve as a
+              self-assessment worksheet.
+            </p>
+          </section>
+        </section>
+
+        <section>
+          <h3>The Challenge</h3>
+          <ol>
+            <li>Build at least 12 interconnected topic pages.</li>
+            <li>Include at least 30 documented HTML elements.</li>
+            <li>Create at least 40 meaningful links between pages.</li>
+            <li>Use a consistent navigation structure.</li>
+            <li>Include a glossary and self-assessment.</li>
+            <li>Give every page a clear purpose.</li>
+            <li>Avoid copying the same generic content across pages.</li>
+            <li>Make every internal link work.</li>
+            <li>Use semantic HTML wherever appropriate.</li>
+            <li>
+              Ensure your content remains understandable with CSS disabled.
+            </li>
+          </ol>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p><strong>HTML Project Collection</strong></p>
+      <p>
+        Five project ideas to help you practice structuring content with HTML,
+        using semantic elements, and planning interconnected pages.
+      </p>
+      <p>Use these challenges as a guide, and make each project your own.</p>
+      <p>
+        Also, don't worry; I'll help you along the way. I'm creating all of
+        these sites, so first understand the fundamentals and then create your
+        own content.
+      </p>
+    </footer>
+  </body>
+</html>
