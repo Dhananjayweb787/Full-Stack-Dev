@@ -1,0 +1,65 @@
+We are building sort of encyclopedia with 14 interconnected html pages, each serving different but related info. I am clearly reminding you, this project is speacifically for those who love html and want to have deep fun with this thing. Like a nerd as me. This is to just get hack with this thing.
+
+I think we should follow the parts as steps and complete this project. Hence, The Part1 is to create an index.html page. This page is goinna be our center/main hompage. Therefore, it should include things as:
+1 An introduction to the internet
+2 A structured index of major concepts
+3 Links to every topic in your knowledge network
+4 A suggested learning sequence
+5 A glossary of important terms
+
+So this along topics are worth of studying for months, not years, but our understandings should be priortized by time not knowledge.Hence, we are going to learn them by some rabbit hole websites, couple of youtube videos and by LLMs.I think this topic is pretty confusing for some, so you can/should use AI first to get a path to follow, then move towards website hunting and videos.
+
+So I also worked with my personal chatbot,I got the following data:
+
+1. Understanding What are be building:
+- Homepage-index.html; The central directory of your encylopedia
+- Knowing articles: At least 12 individual pages
+- HTML reference library: Separate HTML elements reference=30
+- Self assessment: Questions
+
+2. Deeciding the topics to write within:
+Basically, we need totaly 14 pages to build. Don't worry by the number 14, that is the intresting part which we are going to work together.
+So to make it simpler, I am dividing this 14 pages into 4-Categories.
+  1.Web Foundations:
+    -internet.html - What is the internet?
+    -World-Wide-Web.html - What is the World Wide Web?
+    -How-Web-Works.html - What happens when you visit a website under the hood?
+  2.Communication and networking:
+    -ip-addresses.html - IP addresses
+    -dns.html - Domain Name System
+    -tcp-ip.html - TCP/IP and networking
+    -http-https.html - HTTP and HTTPS
+  3.Web Development:
+    -browers.html - Web browers
+    -Html.html - HTML
+    -css.html - CSS
+    -javascript.html - Javascript
+    -frontend-backend.html - Forntend versus backend
+  4.Infrastructure
+    -Web-servers.html - Web servers
+    -Web-hosting.html - Web hosting and Domain names
+  *Addtional projects pages
+    -index.html -Homepage
+    -html-reference.html -HTML reference library
+    -quiz.html - Self-assessment
+
+Now, First lets start Reasearching and collecting knowledge.
+I got Five-sites for this project, might need more but primary,these are the best:
+  1. MDN Web Docs (Primary resource/ used for Development)
+     -https://developer.mozilla.org/en-US/
+  2. CloudFlare Learning Center (For Networking and internet infrastructure)
+     -https://www.cloudflare.com/learning/
+  3. Web.dev (Beginner-friendly for web-development)
+     -https://web.dev
+  4. WHATWE HTML Standard (Teachinal authority/ For html rules)
+     -https://html.spec.whatwg.org
+  5. W3C (Useful for understanding web standards and accessibility)
+     -https://www.w3.org
+I think by this sites only you and I shall be able to understand the topic well beyond necessessry. Here I am not for teaching you everything of the internet, I want you to understand it by your own. I can help you if you're stuck,but it doesn't mean I have to spoon-feed it to you. I am just gonna write the concept topics below, your task is to go out there and get the knowledege. Infuture, I "Might" have a site explaning all of this indetail,but for right now; we have to hunt this.
+
+For All this site, I will have my personal understandings below:
+  1. Cloudflares for internet basics:
+     -What is a Network? / What is Internet? / How are they corelated to eachother? / What differences do they contain?
+     -
+     -
+     -
