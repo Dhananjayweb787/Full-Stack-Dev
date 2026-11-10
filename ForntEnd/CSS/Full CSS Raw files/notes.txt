@@ -1,0 +1,18 @@
+What is CSS?
+CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation and design of a document written in HTML or XML. CSS allows web developers to control the layout, colors, fonts, spacing, and overall visual appearance of web pages. By separating content (HTML) from presentation (CSS), it enables more flexibility and maintainability in web design.
+
+For writing CSS, there is a basic syntax: Selector {
+  property: value;
+}
+Selector: This specifies the HTML element(s) you want to style. It can be an element type, class, ID, or a combination of these.
+Property: This is the aspect of the element you want to change, such as color, font-size, margin, etc.
+Value: This is the specific setting you want to apply to the property, such as a color code, pixel value, percentage, etc.
+
+
+There are three ways to add style to elements of html. First, inline is the most prior style implication within html; Second, head style means to use style within teh html. Third, it is exteral stylesheet. This should be connect with the link element with html.
+
+This is the link to connect external stylesheet:<link rel="stylesheet" href="Style.css"/>
+There are multiple properties within CSS. Let us start with understanding different properties.
+
+1. Color property: This is the forground(text) within the html is changed with color property.
+2. Background property; This is the background color of html/elements which could be changed by this property.
