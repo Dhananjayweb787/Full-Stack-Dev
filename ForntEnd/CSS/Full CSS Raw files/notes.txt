@@ -16,3 +16,18 @@ There are multiple properties within CSS. Let us start with understanding differ
 
 1. Color property: This is the forground(text) within the html is changed with color property.
 2. Background property; This is the background color of html/elements which could be changed by this property.
+ color System: The is the RBG mixture withn your webapp.
+ There are two different types of color system implicants. 
+  First: RGB System: This is used to set an unknown color by mixting red-green-blue from a range of 0 to 255. For Example: green color: rgb(0, 255, 0)
+  Second: Hex System: This is just the shortform of writing color mixture from a range of 00 to ff. For Example: Black #000000.
+  Note: to get good color combinations or complimentary color by color pallete.
+
+Different types of Selectors within CSS:
+ 1. Universal Selector: Used to apply property and value to the entire webapp. refered with *.
+ 2. Element Selector: Used to apply speacific value to a speacific element as h1, p, div etc. 
+ 3. Id Selector: This applies to the speacific ID. Refered by #
+ 4. Class Selector: This applies to multiple elements with same property value. Refered as ".".
+ Note: you can also give different elements the same property value by seperating them within the selector by commas.
+
+
+

@@ -3,43 +3,260 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Understanding CSS Raw Files</title>
+    <title>CSS Learning Playground</title>
     <link rel="stylesheet" href="Style.css" />
   </head>
+
   <body>
-    <h1>Understanding CSS Raw Files</h1>
-    <p>
-      CSS raw files are essential for styling web pages. They allow developers
-      to define the look and feel of their websites using various properties and
-      values.
-    </p>
-    <p>
-      In this example, we will explore how to link a CSS file to an HTML
-      document and apply some basic styles.
-    </p>
+    <header class="site-header" id="top">
+      <div class="page-container">
+        <p class="eyebrow">A hands-on reference</p>
+        <h1>CSS Learning Playground</h1>
+        <p class="lead">
+          Use this page to practice styling real HTML. Every section gives you
+          elements to target while you explore selectors, typography, color,
+          spacing, layout, and responsive design.
+        </p>
+        <nav aria-label="Page sections">
+          <a href="#selectors">Selectors</a>
+          <a href="#typography">Typography</a>
+          <a href="#box-model">Box model</a>
+          <a href="#layout">Layout</a>
+          <a href="#components">Components</a>
+          <a href="#form-practice">Forms and tables</a>
+          <a href="#responsive">Responsive design</a>
+        </nav>
+      </div>
+    </header>
 
-    <h2>Linking a CSS File</h2>
-    <p>
-      To link a CSS file to your HTML document, use the following syntax in the
-      <code>&lt;head&gt;</code> section:
-    </p>
-    <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
+    <main class="page-container">
+      <section class="lesson" id="selectors">
+        <p class="eyebrow">01 / Foundations</p>
+        <h2>Selectors and the Cascade</h2>
+        <p>
+          Selectors choose which HTML elements receive a style. Try element
+          selectors such as <code>p</code>, classes such as
+          <code>.highlight</code>, and IDs such as <code>#special-note</code>.
+        </p>
+        <div class="example-panel">
+          <h3>Several things to select</h3>
+          <p class="highlight">
+            This paragraph has a class, so you can target it with a class
+            selector.
+          </p>
+          <p id="special-note" data-level="beginner">
+            This paragraph has an ID and a data attribute. Try an ID selector
+            or an attribute selector.
+          </p>
+          <div class="nested-example">
+            <p>A paragraph nested inside a div is useful for practicing</p>
+            <p>descendant selectors and child selectors.</p>
+          </div>
+        </div>
+        <p class="tip">
+          Tip: Compare specificity by applying competing rules to the same
+          element, then inspect the result in your browser's developer tools.
+        </p>
+      </section>
 
-    <h2>Basic CSS Example</h2>
-    <p>
-      Here is a simple example of CSS that changes the background color and text
-      color of the body:
-    </p>
-    <pre><code>body {
-      background-color: #f0f0f0;
-      color: #333;
-      font-family: Arial, sans-serif;
-    }</code></pre>
+      <section class="lesson" id="typography">
+        <p class="eyebrow">02 / Text and color</p>
+        <h2>Typography, Color, and Units</h2>
+        <p>
+          Use these text samples to experiment with font families, font sizes,
+          weights, line height, letter spacing, text alignment, and text
+          decoration. Try colors in named, hexadecimal, RGB, and HSL formats.
+        </p>
+        <div class="type-samples">
+          <h3 class="sample-heading">A large display heading</h3>
+          <h4 class="sample-subheading">A smaller section heading</h4>
+          <p class="sample-copy">
+            Body text is easier to read when its line length and line height are
+            comfortable. Adjust both and compare the result.
+          </p>
+          <p class="muted-copy">
+            Muted text is useful for secondary information and captions.
+          </p>
+          <p class="text-link-sample">
+            <a href="#components">This is a link to another section</a>
+          </p>
+        </div>
+      </section>
 
-    <h2>Conclusion</h2>
-    <p>
-      By understanding how to use CSS raw files, you can enhance the visual
-      appeal of your web pages and create a better user experience.
-    </p>
+      <section class="lesson" id="box-model">
+        <p class="eyebrow">03 / Spacing and shape</p>
+        <h2>The Box Model</h2>
+        <p>
+          Every element is a box. Change its content size, padding, border, and
+          margin to see how those layers affect the space it occupies.
+        </p>
+        <div class="box-model-demo">
+          <div class="box box-small">Small box</div>
+          <div class="box box-medium">A box with more padding</div>
+          <div class="box box-large">
+            A wider box for experimenting with width, max-width, borders, and
+            box-sizing.
+          </div>
+        </div>
+        <p>
+          Also try border radius, outlines, shadows, and
+          <code>overflow: hidden</code> on the boxes above.
+        </p>
+      </section>
+
+      <section class="lesson" id="layout">
+        <p class="eyebrow">04 / Page structure</p>
+        <h2>Flexbox and Grid Layouts</h2>
+        <p>
+          Flexbox is handy for arranging items in one direction. Grid is useful
+          when you want to control rows and columns together.
+        </p>
+        <h3>Flexbox practice</h3>
+        <div class="flex-demo">
+          <div class="layout-item">One</div>
+          <div class="layout-item">Two</div>
+          <div class="layout-item">Three</div>
+        </div>
+        <h3>Grid practice</h3>
+        <div class="grid-demo">
+          <div class="layout-item">Grid item one</div>
+          <div class="layout-item">Grid item two</div>
+          <div class="layout-item">Grid item three</div>
+          <div class="layout-item">Grid item four</div>
+        </div>
+        <p>
+          Try changing alignment, gaps, column sizes, and the number of columns.
+          Resize the browser to see how your layout behaves.
+        </p>
+      </section>
+
+      <section class="lesson" id="components">
+        <p class="eyebrow">05 / Interactive elements</p>
+        <h2>Cards, Buttons, and States</h2>
+        <p>
+          These elements are good targets for pseudo-classes such as
+          <code>:hover</code>, <code>:focus</code>, and
+          <code>:first-child</code>. Use the keyboard to check focus styles.
+        </p>
+        <div class="card-list">
+          <article class="card">
+            <p class="card-category">Beginner</p>
+            <h3>Style a card</h3>
+            <p>
+              Practice backgrounds, borders, padding, shadows, and rounded
+              corners on this card.
+            </p>
+            <a class="button" href="#form-practice">Explore the form</a>
+          </article>
+          <article class="card card-featured">
+            <p class="card-category">Try this</p>
+            <h3>Change its state</h3>
+            <p>
+              Add a hover effect, then make sure the same action is visible
+              when the link receives keyboard focus.
+            </p>
+            <a class="button button-secondary" href="#top">Back to top</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="lesson" id="form-practice">
+        <p class="eyebrow">06 / Forms and tables</p>
+        <h2>Form Controls and Data</h2>
+        <p>
+          Form controls have browser defaults. Practice styling their borders,
+          focus states, spacing, and labels while keeping them easy to use.
+        </p>
+        <form class="practice-form" action="#" method="get">
+          <div class="form-field">
+            <label for="learner-name">Your name</label>
+            <input
+              id="learner-name"
+              name="name"
+              type="text"
+              placeholder="Ada Lovelace"
+            />
+          </div>
+          <div class="form-field">
+            <label for="topic">Choose a topic</label>
+            <select id="topic" name="topic">
+              <option value="">Select a CSS topic</option>
+              <option value="layout">Layout</option>
+              <option value="typography">Typography</option>
+              <option value="color">Color</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="notes">Learning notes</label>
+            <textarea
+              id="notes"
+              name="notes"
+              rows="3"
+              placeholder="What would you like to practice?"
+            ></textarea>
+          </div>
+          <button type="submit">Save practice notes</button>
+        </form>
+
+        <h3>A small data table</h3>
+        <div class="table-wrapper">
+          <table>
+            <caption>CSS topics to practice</caption>
+            <thead>
+              <tr>
+                <th scope="col">Topic</th>
+                <th scope="col">Try styling</th>
+                <th scope="col">Difficulty</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Color</th>
+                <td>Text and backgrounds</td>
+                <td>Easy</td>
+              </tr>
+              <tr>
+                <th scope="row">Layout</th>
+                <td>Flexbox and grid</td>
+                <td>Explore</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="lesson" id="responsive">
+        <p class="eyebrow">07 / Responsive design</p>
+        <h2>Responsive Design Challenge</h2>
+        <p>
+          Responsive CSS adapts a page to different screen sizes. Use media
+          queries to adjust the navigation, card layout, spacing, or type size
+          when the viewport gets narrower.
+        </p>
+        <div class="challenge-panel">
+          <h3>Your challenge</h3>
+          <p>
+            Make the cards stack on small screens, keep text readable, and
+            ensure there is no horizontal scrolling.
+          </p>
+          <ul>
+            <li>Start with a flexible layout.</li>
+            <li>Add a breakpoint only when the design needs one.</li>
+            <li>Test with keyboard navigation and browser zoom.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-container">
+        <p>Keep experimenting: small CSS changes make visible differences.</p>
+        <a href="#top">Return to the top</a>
+      </div>
+      <h1 class="header">CSS Learning Playground</h3>
+      <h2 class="header">CSS Learning Playground</h3>
+      <h3 class="header">CSS Learning Playground</h3>
+    </footer>
+  
   </body>
 </html>
