@@ -1,4 +1,4 @@
-What is CSS?
+What is CSS? Time: 
 CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation and design of a document written in HTML or XML. CSS allows web developers to control the layout, colors, fonts, spacing, and overall visual appearance of web pages. By separating content (HTML) from presentation (CSS), it enables more flexibility and maintainability in web design.
 
 For writing CSS, there is a basic syntax: Selector {
@@ -24,10 +24,25 @@ There are multiple properties within CSS. Let us start with understanding differ
 
 Different types of Selectors within CSS:
  1. Universal Selector: Used to apply property and value to the entire webapp. refered with *.
+
  2. Element Selector: Used to apply speacific value to a speacific element as h1, p, div etc. 
+
  3. Id Selector: This applies to the speacific ID. Refered by #
+
  4. Class Selector: This applies to multiple elements with same property value. Refered as ".".
  Note: you can also give different elements the same property value by seperating them within the selector by commas.
 
+Text Properties: 
+ 1. Text-align: This sifts the position of the selector; right, left, center.
+ Note: This is work as herceial relation, bascially it changes the child tag(selector element) from the relation to the parent.
 
+ 2. Text-decoration: It decorates(Lines work) the text of the selector.
+
+ 3. Fornt Weight: It is the fornt weight (darkness or lightness) of the selctor text. It is from the range of 100 to 900. 
+
+ 4. Fornt-family: This are differnt fornts to be select from the front family. 
+
+Units in CSS: Units are the elements used to measure different element's content within the webapp.
+There are two different types of topics to within units of CSS; Absolute, Radical. 
+ 1. Absolute: This are bascially pixels, inches
 
