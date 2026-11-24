@@ -1,4 +1,5 @@
-What is CSS? Time: 
+What is CSS? Time: 2:26:25
+
 CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation and design of a document written in HTML or XML. CSS allows web developers to control the layout, colors, fonts, spacing, and overall visual appearance of web pages. By separating content (HTML) from presentation (CSS), it enables more flexibility and maintainability in web design.
 
 For writing CSS, there is a basic syntax: Selector {
@@ -15,34 +16,115 @@ This is the link to connect external stylesheet:<link rel="stylesheet" href="Sty
 There are multiple properties within CSS. Let us start with understanding different properties.
 
 1. Color property: This is the forground(text) within the html is changed with color property.
-2. Background property; This is the background color of html/elements which could be changed by this property.
+2. Background property; This is the background color of html/elements which could
+be changed by this property.
  color System: The is the RBG mixture withn your webapp.
  There are two different types of color system implicants. 
-  First: RGB System: This is used to set an unknown color by mixting red-green-blue from a range of 0 to 255. For Example: green color: rgb(0, 255, 0)
-  Second: Hex System: This is just the shortform of writing color mixture from a range of 00 to ff. For Example: Black #000000.
+  First: RGB System: This is used to set an unknown color by mixting red-green-blue
+  from a range of 0 to 255. For Example: green color: rgb(0, 255, 0)
+  Second: Hex System: This is just the shortform of writing color mixture from a
+  range of 00 to ff. For Example: Black #000000.
   Note: to get good color combinations or complimentary color by color pallete.
 
 Different types of Selectors within CSS:
- 1. Universal Selector: Used to apply property and value to the entire webapp. refered with *.
+ 1. Universal Selector: Used to apply property and value to the entire webapp.
+ refered with *.
 
- 2. Element Selector: Used to apply speacific value to a speacific element as h1, p, div etc. 
-
+ 2. Element Selector: Used to apply speacific value to a speacific element as h1, p,
+ div etc. 
  3. Id Selector: This applies to the speacific ID. Refered by #
 
- 4. Class Selector: This applies to multiple elements with same property value. Refered as ".".
- Note: you can also give different elements the same property value by seperating them within the selector by commas.
+ 4. Class Selector: This applies to multiple elements with same property value.
+ Refered as ".".
+ Note: you can also give different elements the same property value by seperating
+ them within the selector by commas.
+
 
 Text Properties: 
  1. Text-align: This sifts the position of the selector; right, left, center.
- Note: This is work as herceial relation, bascially it changes the child tag(selector element) from the relation to the parent.
+ Note: This is work as herceial relation, bascially it changes the child
+ tag(selector element) from the relation to the parent.
 
  2. Text-decoration: It decorates(Lines work) the text of the selector.
 
- 3. Fornt Weight: It is the fornt weight (darkness or lightness) of the selctor text. It is from the range of 100 to 900. 
+ 3. Fornt Weight: It is the fornt weight (darkness or lightness) of the selctor
+ text. It is from the range of 100 to 900. 
 
  4. Fornt-family: This are differnt fornts to be select from the front family. 
 
+ 5. Text-transform: This property transform the casing of the text as uppercase,
+ lowercase, capitalize. 
+
 Units in CSS: Units are the elements used to measure different element's content within the webapp.
 There are two different types of topics to within units of CSS; Absolute, Radical. 
- 1. Absolute: This are bascially pixels, inches
+ 1. Absolute: This are bascially pixels, inches, centimeters etc.
+ 2 Radicals: Learn later.
+
+
+
+
+
+
+BOX MODEL:
+
+What is a Box model: Each Element within html could be presentated within a box. 
+
+We are going to learn multiple things within CSS: 
+Height, Weight, Boarder, Padding, Margin
+
+Each contain within box model is within a speacific rectangler shaped box, hence having a height and weidth. The regin/ box within the contain falles is named the contain box. Around that rectangle, their is some speacific extra weidth and height, which is padding, which is them surrounded with a Boarder. Then, the distance between two boarders of elements is the margin.
+
+So now letus study each of them indetial. 
+
+ 1. Height: It is the vertical length of Content box ,which could be setted with    
+ height property. Note: this is the content box, not the content itself.
+
+ 2. Width: It is the horizontal length of the Content box, which could be written by
+ the weidth property. 
+
+ 3. Border: This is the border of the element box, It is sub-catagorized to three
+ sub-propertoes: Border-width, Border-style, Border-color. 
+
+  1.Border-width: Its decides the thinkness of the border.
+
+  2.Border-style: Its gets different types of borders as: dashed, dotted, solid
+  etc.
+
+  3.Border-color: It gets to color your border.
+
+  Note: If you want to write all of this in a shorthand form; Use the border
+  property. Inwhich, the value oroentation starts with width, style, and color.  
+
+  4.Border-radius: It is used to set the curvacure of edges of the border.
+  They could be used two formats: 
+    1. Border-radius(px): This uses the pxs to set the redius.
+    2. Border-radius(%): This uses percentage to set the redius. The percentage
+    ratios are setted by the element box height and width. 
+
+ 4. Padding: So Padding is the space between the content box and the border.
+
+    To give or remove spaces between the content bo and the border, there are four
+    sides to select from.
+    1. padding-left: for the left region,
+    2. padding-right: for the right region.
+    3. padding-top: for the top region.
+    4. padding-bottom: for the bottom region.
+
+    There is a short hand fro padding: 
+    1. padding:50px;- This porvides a 50px padding from top,right,bottom, left.
+    2. padding: 1px 2px 4px 5px;- this provides with the orientation of clockwise
+    starting from top.
+
+ 5. Margin: It is the area between two seperate element boxes. 
+
+    It is also just like padding, could be given from top, right, bottom, left. 
+    1. Margin-left: for the left region,
+    2. Margin-right: for the right region.
+    3. Margin-top: for the top region.
+    4. Margin-bottom: for the bottom region.
+
+    There is a short hand fro margin: 
+    1. margin:50px;- This porvides a 50px margin from top,right,bottom, left.
+    2. margin: 1px 2px 4px 5px;- this provides with the orientation of clockwise
+    starting from top.
 

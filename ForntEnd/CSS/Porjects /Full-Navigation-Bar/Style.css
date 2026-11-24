@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: inherit;
+    text-decoration: none;
+    background-color: aqua;
+}
+
+#Navbar{
+    background-color: #0f1111;
+}
+
+#Nav{
+    padding-top: 10px;
+    background-color: #0f1111;
+    border: 6px solid white;
+    height: 60px;
+}
+
+.tags{
+    color: white;
+    margin-right: 200px;
+    padding-left: 2px;
+    background-color: #0f1111;
+
+}
+
+#amazon{
+    font-size: 25px;
+    padding-left: 4px;
+    color:#f08804;
+    background-color: #0f1111;
+
+}
+
+#searchbar{
+    background-color: white;
+
+}
+
+#button{
+    background-color: #f08804;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    padding:1px 4px 1px 4px;
+
+}

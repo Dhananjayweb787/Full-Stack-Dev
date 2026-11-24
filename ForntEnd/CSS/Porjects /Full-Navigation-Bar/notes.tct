@@ -1,0 +1,20 @@
+What We have to do: We have to create an Amazon Nav-Bar with the following rules:
+
+ 1. The Nar-Bar color and height are: #0f1111 , 60px.
+
+ 2. Their is a white border around with a width of 6px.
+
+ 3. Within the Nar-Bar ,there are four link tags each apart by 200px named: Amazon.in, Account, My Cart, Contact Us.
+    With the tags, there is a Search-Bar with a bottom alongside.
+
+ 4. The Background-color of the button is #f08804 with white as the text color. 
+
+ 5. The text-sie within this nav-bar should be 25px. 
+
+ 6. Within the search-bar, their should be text as:  Search Amazon.ca.
+
+ If you want, you can add more speacific elements and their properties to this project. 
+
+ What I did extra:
+  1. I picked the same font-family from offical Amazon sitation.
+  2. Some more but your task is to figure it out if you want. Or it's just fine. 
