@@ -1,4 +1,4 @@
-What is CSS? Time: 2:26:25
+What is CSS? Time: 2:30:25
 
 CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation and design of a document written in HTML or XML. CSS allows web developers to control the layout, colors, fonts, spacing, and overall visual appearance of web pages. By separating content (HTML) from presentation (CSS), it enables more flexibility and maintainability in web design.
 
@@ -74,7 +74,7 @@ Height, Weight, Boarder, Padding, Margin
 
 Each contain within box model is within a speacific rectangler shaped box, hence having a height and weidth. The regin/ box within the contain falles is named the contain box. Around that rectangle, their is some speacific extra weidth and height, which is padding, which is them surrounded with a Boarder. Then, the distance between two boarders of elements is the margin.
 
-So now letus study each of them indetial. 
+So now letus study each of them indetail. 
 
  1. Height: It is the vertical length of Content box ,which could be setted with    
  height property. Note: this is the content box, not the content itself.
@@ -127,4 +127,104 @@ So now letus study each of them indetial.
     1. margin:50px;- This porvides a 50px margin from top,right,bottom, left.
     2. margin: 1px 2px 4px 5px;- this provides with the orientation of clockwise
     starting from top.
+ 
+Display Properties: It sets the the element block ideal space to take on a document.
+There are mutliple of them:
 
+  1. Inline: This property sets up the element block space based on the content within.
+
+  2. Block: This property set the element size along side the whole document.
+
+  Note: The thing is that to convert any element into inline or block, makesure it should have content within the content box. As, It shifts its shape with the respact to the content box size. If the content boc is empty, it will collepse to 0px width. Meanwhile, if you use Inline-block property, it as set it with epmty content boxes.
+
+  3. Inline-block: This is similar to the both above but you can set it according to your needs.
+
+  4. none: This removes the element from the document.
+
+  note: this makes the element to disapear from the document but it still remains within the file as unexecutated.
+  Same as none, there is a similar property: Visibility:hidden; . This sets the element hidden but still is reserves the same space as before within the element.  
+
+Within the RGB system, we can also set the opacity with a speacific chennal as Alpha chennel. This adds one value within the RGB with an A from a range from 0-1. 
+
+
+
+
+Remember the Absolute units within CSS.
+Now it is time to get another concept, Relative Unit.
+
+Relative Unit:  This  units are relative according to either their parent element or the document. With can differ for each site and each element.
+
+There are many different relative unit measurements, but the main three are:
+  1. Precentage: This unit difines the size of child element accoridng to the 
+  parent element property values. This calculates according to the parent's height 
+  and width. 
+
+  2. Em: This changes the text font properties of the child element according to 
+  the parent element. The numeral in the em multiples to the font-size. 
+
+  3. Root-Em, Rem: This changes the font-size of child-Element with relative to the 
+  root-elememt. 
+
+Position Porperty within CSS. 
+There are four different position settings to set different elements to a speacific position. Named: Static, Relative, Absolute, Fixed, Sticky. Note: thier are four properties to set within position property, which are: top, bottom, right, left. 
+
+  1. Static: This is the default position of any element which is the position 
+  selected relatie to the document. It stays the same whether or not you add this  
+  to your element.
+  
+  2. Relative:  This changes the element position from static to the current 
+  orientation. which means now you can add top, bottom, right, left  shifting using 
+  the four speacific properties. Which will change its current orientation by the 
+  speacific property. They are always going to overlap any static element. 
+
+  3. Absolute: This sets the element's position to the nearest non-static ansester 
+  elememt. which means the element on which we are applying this property, it will 
+  move according to its parent or other ansestor element. 
+
+  4. Fixed: This sets the element position relative to the browser, not the 
+  document or any element. This fixes the position of the element relative to the 
+  user's page. which means if the user scrolls, the element follows the movement. 
+
+  5. Sticky: This sets the element's position relative to the user page, if the 
+  user scrolls, the element shall follow it.
+  
+  Note: If the element is present below in the document, as soon as the user 
+  scrolls through the element, it sticks to the top of the page.  
+
+Z-index Property: This decides which element shall overlap other elements. The larger the z-index, it will overlap the smaller ones. This basically means to give the priority to the element. This property comes from math z-axis formula.  
+
+
+Background-Image: This sets up any image into the background of any element.
+Note: Vist unsplash. To use this property, you need to used another priperty named: Background Size. 
+
+Background-Size Property: This sets the size of the background-image by using different values as: cover/ contain/ auto.
+  1. Cover-value: This sets the image to cover the entire slector element space. 
+  Basically to fit within the given area. 
+  
+  Note: This fits the element space by the image, if has a larger ratio, will not 
+  fit within. The Priority is to fill the space of the element, not to fully make 
+  the image visible.
+
+  2. Contain-value: This sets the image to full be visible within the element, 
+  whether if the element is has larger ratio than the image or not.
+
+  Note: Here the main goal is to make the image fully visible, not to fit the 
+  element empty space. Which means, you can see multiple replications of the same 
+  image to fill the space.  
+  
+  3. Auto-value: This sets the image automatically to fit the background of the 
+  element. Which might make if enlarge or pixelated. This the defult setting within 
+  the files. 
+
+
+
+
+
+
+
+
+FlexBox: I want you to understand flexbox as it is some thing try to work on. Relax and enjoy the show. 
+
+flexbox: Stands for Fexible Box Layout which simply means to arrenge different elements within a container. It is used to get you a good arrengment of the elements you have. So to understand Flexbox, we need to understand flex model. 
+ 
+So Flex-Model is majorly made up of three things: flex contianer, axis amd flex items. So any element could be considered as a flexbox if its display property has value of flex. It becomes a flex container. The elements within the container are called flex items. This flex items are arranged based on two axis, main axis and cross axis. This axis could be setted by us but they are always perpendicular to each other.  
